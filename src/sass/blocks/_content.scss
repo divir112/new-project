@@ -1,0 +1,51 @@
+.content{
+    min-height: 820px;
+    padding-top: 250px;
+    &__wrapper{
+        width: 419px;
+        min-height: 236px;
+    }
+    &__title{
+        font-family: Bw Modelica Cyrillic DEMO;
+        font-size: 48px;
+        color: #E50046;
+        line-height: 48px;
+    }
+    &__descr{
+        font-family: Rubik;
+        font-size: 18px;
+        line-height: 18px;
+        color: #191919;
+        margin-top: 24px;
+    }
+    &__img{
+        position: absolute;
+        left: 525px;
+        top: -200px;
+    }
+    &__btn{
+        margin-top: 40px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        width: 257px;
+        height: 54px;
+        box-shadow: 0px 3px 6px rgba(229, 0, 70, 0.24);
+        border-radius: 32px;
+        background: #E50046;
+        transition: .3s all;
+        &:hover{
+            box-shadow: 3px 3px 20px #E50046;
+            transform: translateY(-10%);
+        }
+    }
+    .animated{
+        animation-name: heart;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+    }
+    
+}

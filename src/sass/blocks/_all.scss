@@ -1,0 +1,38 @@
+.all{
+    margin-top: 19px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #E50046;
+    width: 108px;
+    border-bottom: none;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    transition: .3s all;
+    display: block;
+    &:after{
+        content: '';
+        position: absolute;
+        background: url('../icon/arrow.svg') center (center / cover) no-repeat;
+        width: 21px;
+        height: 0px;
+        right: -30px;
+        top: -1px;
+        transition: .3s all;
+    }
+    &:hover{
+        color:#E50046;
+        text-decoration: none;
+        border-bottom: 1px solid #E50046;
+        &:after{
+            content: '';
+            position: absolute;
+            background: url('../icon/arrow.svg') center (center / cover) no-repeat;
+            width: 21px;
+            height: 21px;
+            right: -30px;
+            top: -1px;
+        }
+    }
+}

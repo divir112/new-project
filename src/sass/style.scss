@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+.menu{
+    display: none;
+}
+
+
+
+@import 'blocks/animation';
+@import 'blocks/header';
+@import 'blocks/content';
+@import 'blocks/buttons';
+@import 'blocks/services';
+@import 'blocks/specialists';
+@import 'blocks/all';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+
+@import 'blocks/media';
+
+
+

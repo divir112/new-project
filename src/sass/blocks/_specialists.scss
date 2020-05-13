@@ -1,0 +1,57 @@
+.specialists{
+    margin-top: 120px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    &__title{
+        font-family: Bw Modelica Cyrillic DEMO;
+        font-size: 32px;
+        line-height: 38px;
+        color: #191919;
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            background: url('../icon/underline__blue.svg') center (center / cover) no-repeat;
+            width: 262px;
+            height: 11px;
+            top: 46px;
+            left: 90px;
+        }
+    }
+    &__name{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #000000;
+        margin-top: 32px;
+    }
+    &__position{
+        font-family: Rubik;
+        font-size: 14px;
+        color: #191919;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
+    &__descr{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #8B929E;
+        margin-top: 8px;
+    }
+    &__item{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .all{
+        width: 127px;
+    }
+}
+.button__botom{
+    display: none;
+}

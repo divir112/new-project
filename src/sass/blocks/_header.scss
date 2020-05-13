@@ -1,0 +1,107 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 110px;
+    &__logo-nav{
+        display: flex;
+        align-items: center;
+    }
+    &__contacts{
+        display: flex;
+        align-items: center;
+    }
+    &__logo{
+        display: block;
+        cursor: pointer;
+    }
+    &__menu{
+        width: 610px;
+        margin-left: 64px;
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__link{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #191919;
+        transition: .3s all;
+        &:hover{
+            color: #E50046;
+            text-decoration: none;
+        }
+    }
+    &__address{
+        margin-left: 182px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: #E50046;
+        position: relative;
+        &:hover{
+            color: #E50046;
+        }
+        &:before{
+            content: '';
+            position: absolute;
+            background: url(../icon/location.svg) center (center / cover) no-repeat;
+            width: 18px;
+            height: 24px;
+            left: -30px;
+        }
+        .hamburger{
+            display: block;
+        }
+    }
+    &__phone{
+        margin-left: 40px;
+        display: block;
+        width: 191px;
+        height: 54px;
+        background: #E50046;
+        box-shadow: 0px 3px 6px rgba(229, 0, 70, 0.24);
+        border-radius: 32px;
+        padding: 15px 40px 15px 60px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        position: relative;
+        transition: .3s all;
+        &:hover{
+            text-decoration: none;
+            text-transform: none;
+            color: #FFFFFF;
+            box-shadow: 3px 3px 20px #E50046;
+            transform: translateY(-10%);
+        }
+        &:before{
+            content: '';
+            position: absolute;
+            display: block;
+            width: 16px;
+            height: 24px;
+            left: 28px;
+            background: url('../icon/phone.svg') center (center / cover) no-repeat;
+            
+        }
+    }
+}
+.container__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.button{
+    display: flex;
+    align-items: center;
+    width: 152px;
+    height: 41px;
+    background: #E50046;
+    box-shadow: 0px 3px 6px rgba(229, 0, 70, 0.24);
+    border-radius: 24px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: relative;
+    padding-left: 25px;
+    transition: .3s all;
+    &:before{
+        content: '';
+        position: absolute;
+        background: url('../icon/right.svg') center (center / cover) no-repeat;
+        width: 20px;
+        height: 20px;
+        color: #FFFFFF;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 25px;
+    }
+    &:hover{
+        text-decoration: none;
+        color: #FFFFFF;
+        box-shadow: 3px 3px 20px #E50046;
+        transform: translateY(-10%);
+    }
+    &_spec{
+        width: 199px;
+        height: 41px;
+    }
+    &__rev{
+        width: 158px;
+        height: 41px;
+    }
+}

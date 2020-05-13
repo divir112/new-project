@@ -1,0 +1,60 @@
+.services{
+    &__top{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        font-family: Bw Modelica Cyrillic DEMO;
+        font-size: 32px;
+        line-height: 38px;
+        color: #191919;
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            background: url('../icon/underline.svg') center (center / cover) no-repeat;
+            width: 150px;
+            height: 11px;
+            color: #FFE600;
+            top: 46px;
+            left: 90px;
+        }
+    }
+    &__wrapper{
+        margin-top: 25px;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    &__subtitle{
+        margin-top: 35px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__link{
+        margin-top: 15px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #8B929E;
+        transition: .3s all;
+        &:hover{
+            color: #E50046;
+            text-decoration: none; 
+        }
+
+    }
+
+}
+.button__botom{
+    display: none;
+}

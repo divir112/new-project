@@ -1,0 +1,108 @@
+.reviews{
+    margin-top: 136px;
+    padding-bottom: 164px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        font-family: Bw Modelica Cyrillic DEMO;
+        font-size: 32px;
+        line-height: 38px;
+        color: #191919;
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            background: url('../icon/underline__orange.svg') center (center / cover) no-repeat;
+            width: 178px;
+            height: 11px;
+            top: 46px;
+            left: 90px;
+        }
+    }
+    &__slid{
+        border: 1px solid #F3F3F3;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.02);
+        border-radius: 16px;
+        max-width: 544px;
+        height: 244px;
+        padding: 20px;
+    }
+    &__header{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        display: flex;
+        align-items: center;
+    }
+    &__img{
+        margin-right: 12px;
+    }
+    &__slids{
+        margin-top: 63px;
+        margin-bottom: 40px;
+    }
+    &__descr{
+        margin-top: 32px;
+    }
+    .prev, .next{
+        background: none;
+        border:none;
+        width: 40px;
+        height: 40px;
+        outline: none;
+        border-radius: 100%;
+        transition: .3s all;
+        &:hover{
+            transform: translateY(-10%);
+        }
+        
+    }
+    .prev{
+        margin-right: 5px;
+    }
+    &__slick{
+        margin-left: 45px;
+    }
+    &__social{
+        height: 23px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #E50046;
+        border-bottom: 1px solid rgba(229, 0, 70, 0.24);
+        cursor: pointer;
+        transition: .3s all;
+        position: relative;
+        &:hover{
+            color: #E50046;
+            border-bottom: 1px solid #E50046;
+            text-decoration: none;
+        }
+        &:before{
+            content: '';
+            background: url('../icon/instagram.svg') center (center / cover) no-repeat;
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            left: -28px;
+            top: 3px;
+        }
+        &_on{
+            display: none;
+            &:before{
+                content: '';
+                background: url('../icon/instagram.svg') center (center / cover) no-repeat;
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                left: -28px;
+                top: 3px;
+            }
+        }
+    }
+
+}
