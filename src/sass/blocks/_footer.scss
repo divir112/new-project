@@ -2,8 +2,10 @@
     &__wrapper{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         max-width: 1440px;
         margin: 0 auto;
+        height: 108px;
     }
     &__social{
         height: 23px;

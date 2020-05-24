@@ -1,5 +1,5 @@
 .content{
-    min-height: 820px;
+    min-height: 735px;
     padding-top: 250px;
     &__wrapper{
         width: 419px;
@@ -8,15 +8,15 @@
     &__title{
         font-family: Bw Modelica Cyrillic DEMO;
         font-size: 48px;
+        font-weight: bold;
         color: #E50046;
         line-height: 48px;
     }
     &__descr{
         font-family: Rubik;
         font-size: 18px;
-        line-height: 18px;
         color: #191919;
-        margin-top: 24px;
+        margin-top: 42px;
     }
     &__img{
         position: absolute;
