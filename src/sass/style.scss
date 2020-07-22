@@ -9,6 +9,18 @@
 .menu{
     display: none;
 }
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d4d4d4;
+}
+::-webkit-scrollbar-thumb{
+    background: #E50046;
+    border-radius: 8px; 
+}
+
+
 
 
 
